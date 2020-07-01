@@ -1,0 +1,39 @@
+div p, div h2, div li {
+  margin-left: 40px; }
+div h2, div li {
+  font-weight: bold; }
+div img {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  width: 40%; }
+div table, div td, div th {
+  margin-left: 50px;
+  text-align: center;
+  width: 50%;
+  border: 3px solid black; }
+
+th {
+  background-color: #e0d7fc;
+  padding: 15px; }
+
+.text {
+  font-size: 25px; }
+
+.colored {
+  background-color: #dcd5e8; }
+
+.top{
+  font-family: sans-serif;
+  font-weight: bold;
+  color:#6d3d6e;
+  font-size:25px;
+}
+a.top:hover{
+  color:  #3c133d;
+}
+
+a.top:link{
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=food.css.map */

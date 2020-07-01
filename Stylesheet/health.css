@@ -1,0 +1,51 @@
+ p, h2, h3,  li {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+div h2{
+    font-size:40px;
+    font-weight: bold; }
+
+ul >li{
+  font-size:35px;
+  font-weight:bold;
+}
+ol li{
+  list-style-type: none;
+  font-family:cursive;
+  font-weight: bold;
+  font-size:25px;
+}
+
+.para{
+  margin-top:10px;
+  margin-left:100px;
+}
+.para::before{
+  content: "\2022" ;
+}
+.text {
+  font-size: 25px; }
+
+p::selection{
+  background-color: #93bfbc;
+}
+img{
+
+  margin-left:150px;
+  width:60%;
+}
+.top{
+  font-family: sans-serif;
+  font-weight: bold;
+  color:#6d3d6e;
+  font-size:25px;
+}
+a.top:hover{
+  color:  #3c133d;
+}
+
+a.top:link{
+  text-decoration: none;
+}

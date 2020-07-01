@@ -1,0 +1,60 @@
+$font-stack: Bodoni MT,  sans-serif;
+$primary-color: white;
+
+
+body{
+  font-family:  $font-stack;
+  background-color: $primary-color;
+
+}
+h1{
+  font-family:Bodoni MT ;
+  padding: 20px;
+  text-align:center;
+  color: #3a2357;
+  font-weight: bold;
+  width:95%
+
+}
+
+.navbar-nav{
+ font-family: Times New Roman;
+ font-weight:bold;
+ font-stretch:normal;
+ font-variant: small-caps;
+ text-align:center;
+ padding: 10px 32px;
+
+
+}
+.navbar{
+ background-color: black;
+ display: flex;
+
+}
+.nav1
+ {
+   color:white;
+   text-size: 25px;
+ }
+ a{
+   display:block;
+   margin-left:20px;
+ }
+ a:visited{
+   background-color: white;
+ }
+ a:link{
+   text-decoration:none;
+ }
+ a.navbar-nav:hover
+ {
+   background-color: #5c4163;
+   text-align: center;
+ }
+ a#name:hover{
+   background-color: white;
+ }
+ img{
+   width:100%;
+ }

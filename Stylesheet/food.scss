@@ -1,0 +1,39 @@
+$marginleft: 40px;
+
+div{
+  p{
+    margin-left: $marginleft;
+  }
+  h2{
+    @extend p;
+    font-weight: bold;
+  }
+  li{
+    @extend p;
+    @extend h2;
+  }
+  img{
+    margin-bottom:20px;
+    margin-left: 50px;
+    width:70%;
+  }
+  table,td,th{
+    margin-left:450px;
+    text-align: center;
+    width:50%;
+    border: 3px solid black;
+
+  }
+
+}
+th{
+  background-color: #e0d7fc;
+  padding:15px;
+
+}
+.text{
+  font-size:28px;
+}
+.colored{
+  background-color: #dcd5e8;
+}

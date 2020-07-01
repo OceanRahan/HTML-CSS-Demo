@@ -1,0 +1,35 @@
+div{
+  p{
+    margin-left: 40px;
+  }
+  h2{
+    @extend p;
+    font-weight: bold;
+  }
+  li{
+     @extend p;
+     @extend h2;
+  }
+}
+.text{
+  font-size:28px;
+}
+
+img{
+  margin-top:10px;
+  width:100%;
+}
+iframe{
+  @extend img;
+  height:415px;
+}
+#img1{
+  height: 320px;
+}
+#img2{
+  height: 410px;
+}
+#img3{
+  width:90%;
+  height: 350px;
+}

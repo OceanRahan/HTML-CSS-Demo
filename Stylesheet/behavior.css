@@ -1,0 +1,46 @@
+div p, div h2, div li {
+  margin-left: 40px; }
+  div h2, div li {
+    font-weight: bold; }
+
+    .text {
+      font-size: 28px; }
+      h2::after {
+        content: "\2192";
+        background-color: gery;
+        font-weight: bold;
+      }
+
+      p::selection{
+        background-color: #93bfbc;}
+        img, iframe {
+          margin-top: 10px;
+          width: 100%; }
+
+          iframe {
+            height: 415px; }
+
+            #img1 {
+              height: 320px; }
+
+              #img2 {
+                height: 410px; }
+
+                #img3 {
+                  width: 90%;
+                  height: 350px; }
+                  .top{
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    color:#6d3d6e;
+                    font-size:25px;
+                  }
+                  a.top:hover{
+                    color:  #3c133d;
+                  }
+
+                  a.top:link{
+                    text-decoration: none;
+                  }
+
+                  /*# sourceMappingURL=behavior.css.map */
